@@ -27,4 +27,5 @@ Przykład:
 https://en.wikipedia.org \
 https://eduinf.waw.pl
 
-Szkielety grafów zrealizowane zostały za pomocą strony https://graphonline.ru/en
+Szkielety grafów zrealizowane zostały za pomocą strony https://graphonline.ru/en \
+Przykładowa topologia sieci zrealizowana została za pomocą symulatora Cisco Packet Tracer.
