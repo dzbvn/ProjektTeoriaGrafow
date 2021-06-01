@@ -23,6 +23,11 @@ Przykład:
 > C => B1 => D4 => E5\
 > E => D-5]]
 
+Wynikiem działania algorytmu jest tabelka, gdzie d to odległość od wybranego wierzchołka do wierzchołka V, a p to wierzchołek poprzedzający.
+>| V | A | B | C | D | E | \
+>| d | 0 | 2 | 4 | 3 | 5 | \
+>| p | - | A | A | C | D | 
+
 Źródła wykorzystane w części analitycznej:\
 https://en.wikipedia.org \
 https://eduinf.waw.pl
