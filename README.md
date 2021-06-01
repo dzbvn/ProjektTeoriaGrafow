@@ -23,3 +23,8 @@ Przykład:
 > C => B1 => D4 => E5\
 > E => D-5]]
 
+Źródła wykorzystane w części analitycznej:\
+https://en.wikipedia.org \
+https://eduinf.waw.pl
+
+Szkielety grafów zrealizowane zostały za pomocą strony https://graphonline.ru/en
