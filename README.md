@@ -1,6 +1,8 @@
 # Projekt Teoria Grafów
 
-Algorytm wczytuje grafy z plików tekstowych, w których zawarta jest lista sąsiedztwa. Aby zmienić wczytywany plik, musimy zmienić nazwę pliku w 124 linijce kodu w main.py
+Algorytm wczytuje grafy z plików tekstowych, w których zawarta jest lista sąsiedztwa. 
+Aby zmienić wczytywany plik, musimy zmienić nazwę pliku w 124 linijce kodu w main.py
+Aby zmienić wierzchołek, z którego startujemy, zmieniamy argument w funkcji bellmanFord w 134 linijce kodu.
 
 Format wprowadzanej listy sąsiedztwa:
 >[A => B2 => C4\
