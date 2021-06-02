@@ -44,8 +44,6 @@ class Graph:
                     self.Edges.append(Edge(tline[0], tline[c], int(tline[c + 1])))
 
                 c += 2
-        #for edge in self.Edges:
-        #    print(edge.v1, edge.v2, edge.w)
 
     def printGraph(self):
         print(self.Txt)
@@ -65,14 +63,9 @@ class Graph:
         for v in range(len(self.Vertices)):
 
             for edge in self.Edges:
-                #print(edge.v1, "    ", edge.v2)
-                #print(dist[edge.v1],"+", edge.w,"<", dist[edge.v2])
                 if dist[edge.v1] + edge.w < dist[edge.v2]:
                     dist[edge.v2] = dist[edge.v1] + edge.w
-                    #print(edge.v2, "=" , dist[edge.v1]+edge.w)
                     prev[edge.v2] = edge.v1
-            #print(dist)
-            #print(prev)
 
         for edge in self.Edges:
              if dist[edge.v1] != np.inf and dist[edge.v1] + edge.w < dist[edge.v2]:
@@ -100,7 +93,6 @@ class Graph:
     def clear(self):
         self.Edges.clear()
         self.Vertices.clear()
-
         self.Distances.clear()
         self.PreviousV.clear()
 
@@ -112,7 +104,6 @@ def replaceA(line):
     return line
 
 def readFile(filename):
-
     with open(filename) as file:
         text = file.read()
     res = text.split(',')
