@@ -10,7 +10,7 @@ Format wprowadzanej listy sąsiedztwa:
 
 Za pomocą takiej listy wczytujemy poniższy graf:
  
-![graf1](https://lh3.googleusercontent.com/proxy/9RCesD3R-uPBYZyIfLv74glZkbEcMd0LeDU9gmAuiyVtLvDe5llRfwCW_opGXvFIuWCa4ljgK1ArGB5Xj_BuJVqifxiYyGL6HDxchw7T9oLMxvE-Bw)
+![graf1](exampleGraph.png)
 
 Obsługiwany jest również format, w którym w jednym pliku mamy parę list, wtedy musimy oddzielić je przecinkami.
 Przykład:
